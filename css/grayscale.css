@@ -46,7 +46,7 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    font-family: "Amatic SC";
+    font-family: "Amatic SC", cursive;
     font-size: 36px;
     padding: .5rem 0;
     color: rgb(0, 0, 0);
@@ -86,6 +86,11 @@
   }
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -93,6 +98,20 @@
   min-height: 35rem;
   padding: 15rem 0;
   background: url("../img/kbg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+
+.mastheadv2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
