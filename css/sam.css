@@ -116,7 +116,7 @@
 }
 @media (max-width: 1474px){
   .masthead{
-    background-size: 50%;
+    background-size: contain;
     background-position: 85% 40%;
   }
 }
@@ -129,7 +129,7 @@
   }
 }
 
-@media (max-width: 915px){
+@media (max-width: 1020px){
   .masthead{
     background-size: 50%;
   }
@@ -155,10 +155,7 @@
     padding-bottom: 5%;
   }
   
-  .navbar{
-    padding-bottom: ;
-  }
-  
+
 
   .mastheadv2 {
     position: relative;
