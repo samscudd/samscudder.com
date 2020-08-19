@@ -56,7 +56,12 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: contain;
-  font-family: 'Nunito', sans-serif;
+  font-family: Segoe UI, 'Nunito Sans', sans-serif;
+}
+
+.zh {
+  color: black;
+  font-family: 'Noto Sans SC', sans-serif;
 }
 
 
@@ -284,7 +289,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -294,22 +299,22 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #000000;
   }
 }
 
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 2rem;
   font-size: 90%;
 }
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 2rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
-    border-width: .25rem;
+    border-color: #000000;
+    border-width: .15rem;
     width: 30%;
   }
 
@@ -384,7 +389,7 @@
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   letter-spacing: 0.0625em;
 }
 
@@ -401,6 +406,10 @@ a:focus, a:hover {
   background-color: #161616 !important;
 }
 
+.bg-white {
+  background-color: #fff;
+}
+
 .bg-primary {
   background-color: #64a19d !important;
 }
@@ -411,4 +420,8 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+.fab{
+  color: black;
 }
