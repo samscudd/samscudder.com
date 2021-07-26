@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'DKLemonYellowSun';
+  src: local('DKLemonYellowSun'), url(fonts/DK-Lemon-Yellow-Sun.otf) format('opentype');
+}
+
+.blob {
+  height: 0px; 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*.text-center.container-fluid{
+  background-image: url(./blob1.svg) no-repeat center center fixed;
+}*/
+
+h1{
+  font-family: DKLemonYellowSun;
+  font-size: 84px;
+}
+
+.jumbotron h1, .jumbotron h5{
+  font-family: DKLemonYellowSun;
+}
+
+.jumbotron h1{
+  font-family: DKLemonYellowSun;
+  font-size: 84px;
+}
+
+.jumbotron h5{
+  font-size: 52px;
+}
+
+.little-man {
+  height: 900px;
+}
+
+.logo-photo {
+  height: 60px;
+
+}
+
+@media (min-width: 576px) {
+  .logo-photo{
+    height:120px;
+    width:120px;
+  }
+}
+
+
+nav {
+  margin-left: 3%;
+}
+
+
+
+.nav-link {
+  font-family: DKLemonYellowSun;
+  font-size: 36px;
+  color: black;
+}
+
+.p-card-image {
+  width: 100%;
+  height: 100%;
+}
+
+.pink-blob-1 path {
+  height: 500px;
+  transform-origin: 56px 43px;
+}
